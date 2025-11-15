@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato',sans-serif;
+    line-height: 1.8;
+    color: #777;
+}
+
+#header{
+    background-image: url(Images/images/intro-images/top-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    height: 400px;
+    
+}
+
+#header .container-article h3{
+    text-align: center;
+    margin: 10% auto;
+    color: white;
+    background-color: black;
+    width: 30%;
+    font-size: 25px;
+    letter-spacing: 8px;
+    padding: 13px 0;
+    font-weight: 500;
+    
+}
+
+
+#header ul{
+    display: flex;
+}
+
+#header ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+#header ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+/* maintains the link color whether visited or not visited */
+#header ul li a:any-link{
+    color: #333;
+}
+
+#header ul li a:hover{
+    background-color: black;
+    padding: 10px;
+}
+
+/* ABOUT ME SECTION */
+.about-item{
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.about-item h3{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.about-item p{
+    margin: 30px auto 2px;
+}
+
+.about-paragraph{
+    text-align: justify;
+}
+
